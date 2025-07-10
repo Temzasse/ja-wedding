@@ -13,6 +13,7 @@ import { StatementsFr } from "./games/statements-fr";
 import { LanguageSelector } from "./components/language-selector";
 import { AdilEn } from "./speeches/adil-en";
 import { AdilFi } from "./speeches/adil-fi";
+import { AdilFr } from "./speeches/adil-fr";
 import { MoonaEn } from "./speeches/moona-en";
 import { MoonaFr } from "./speeches/moona-fr";
 import { HildaEn } from "./speeches/hilda-en";
@@ -57,6 +58,7 @@ export default function Home() {
           <LanguageContent
             en={<AdilEn />}
             fi={<AdilFi />}
+            fr={<AdilFr />}
             language={language}
           />
           <LanguageContent

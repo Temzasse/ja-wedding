@@ -1,7 +1,7 @@
 export function StatementsFr() {
   return (
     <section>
-      <h2>Jue 1</h2>
+      <h2>Jeu 1</h2>
       <h3>
         Lorsque le numéro de l’une des affirmations suivantes est lu à voix
         haute, levez-vous si elle s’applique à vous.

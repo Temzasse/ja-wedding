@@ -22,6 +22,9 @@ import { AilaFr } from "./speeches/aila-fr";
 import { AilaEn } from "./speeches/aila-en";
 import { MathisEn } from "./speeches/mathis-en";
 import { MathisFi } from "./speeches/mathis-fi";
+import { PierrickValerieEn } from "./speeches/pierrick-valerie-en";
+import { PierrickValerieFr } from "./speeches/pierrick-valerie-fr";
+import { PierrickValerieFi } from "./speeches/pierrick-valerie-fi";
 
 export default function Home() {
   const [language, setLanguage] = useState<"en" | "fi" | "fr">("en");
@@ -74,6 +77,12 @@ export default function Home() {
           <LanguageContent
             en={<MoonaEn />}
             fr={<MoonaFr />}
+            language={language}
+          />
+          <LanguageContent
+            en={<PierrickValerieEn />}
+            fr={<PierrickValerieFr />}
+            fi={<PierrickValerieFi />}
             language={language}
           />
           <LanguageContent

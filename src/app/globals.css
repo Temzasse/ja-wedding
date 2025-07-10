@@ -39,6 +39,10 @@ p {
   line-height: 1.4;
 }
 
+p[data-color-two] {
+  color: #040688;
+}
+
 h1 {
   text-align: center;
   color: #b8860b;

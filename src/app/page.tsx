@@ -40,7 +40,7 @@ export default function Home() {
           priority
         />
 
-        <h1 className={styles.title}>Julien & Anne</h1>
+        <h1 className={styles.title}>Anne & Julien</h1>
 
         <LanguageSelector
           language={language}

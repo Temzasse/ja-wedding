@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Julien & Anne's Wedding",
-  description: "Info about Julien & Anne's wedding",
+  title: "Anne and Julien's Wedding",
+  description: "Info about Anne and Julien's wedding",
   other: {
     google: "notranslate",
   },

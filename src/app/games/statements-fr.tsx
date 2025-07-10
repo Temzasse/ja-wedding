@@ -3,8 +3,8 @@ export function StatementsFr() {
     <section>
       <h2>Jue 1</h2>
       <h3>
-        Lorsque l’une des affirmations suivantes est lue à voix haute,
-        levez-vous si elle s’applique à vous.
+        Lorsque le numéro de l’une des affirmations suivantes est lu à voix
+        haute, levez-vous si elle s’applique à vous.
       </h3>
       <ol>
         <li>A vu Julien nu</li>

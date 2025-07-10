@@ -3,8 +3,8 @@ export function StatementsFi() {
     <section>
       <h2>Peli 1</h2>
       <h3>
-        Kun joku seuraavista väitteistä sanotaan, nouse seisomaan mikäli
-        kyseinen väite pätee sinuun.
+        Kun joku seuraavien väitteiden numerosta sanotaan, nouse seisomaan
+        mikäli kyseinen väite pätee sinuun.
       </h3>
       <ol>
         <li>Olet nähnyt Julienin nakuna</li>

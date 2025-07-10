@@ -3,8 +3,8 @@ export function StatementsEn() {
     <section>
       <h2>Game 1</h2>
       <h3>
-        When one of the following statements is read aloud, stand up if that
-        statement applies to you.
+        When the number of one of the following statements is read aloud, stand
+        up if that statement applies to you.
       </h3>
       <ol>
         <li>Has seen Julien naked</li>

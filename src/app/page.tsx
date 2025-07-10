@@ -11,6 +11,8 @@ import { StatementsEn } from "./games/statements-en";
 import { StatementsFi } from "./games/statements-fi";
 import { StatementsFr } from "./games/statements-fr";
 import { LanguageSelector } from "./components/language-selector";
+import { AdilEn } from "./speeches/adil-en";
+import { AdilFi } from "./speeches/adil-fi";
 
 export default function Home() {
   const [language, setLanguage] = useState<"en" | "fi" | "fr">("en");
@@ -37,6 +39,11 @@ export default function Home() {
             en={<StatementsEn />}
             fi={<StatementsFi />}
             fr={<StatementsFr />}
+            language={language}
+          />
+          <LanguageContent
+            en={<AdilEn />}
+            fi={<AdilFi />}
             language={language}
           />
           <LanguageContent

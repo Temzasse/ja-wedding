@@ -15,6 +15,10 @@ import { AdilEn } from "./speeches/adil-en";
 import { AdilFi } from "./speeches/adil-fi";
 import { MoonaEn } from "./speeches/moona-en";
 import { MoonaFr } from "./speeches/moona-fr";
+import { HildaEn } from "./speeches/hilda-en";
+import { HildaFr } from "./speeches/hilda-fr";
+import { HildaFi } from "./speeches/hilda-fi";
+import { AilaFr } from "./speeches/aila-fr";
 
 export default function Home() {
   const [language, setLanguage] = useState<"en" | "fi" | "fr">("en");
@@ -48,7 +52,14 @@ export default function Home() {
             fi={<AdilFi />}
             language={language}
           />
-           <LanguageContent
+          <LanguageContent fr={<AilaFr />} language={language} />
+          <LanguageContent
+            en={<HildaEn />}
+            fr={<HildaFr />}
+            fi={<HildaFi />}
+            language={language}
+          />
+          <LanguageContent
             en={<MoonaEn />}
             fr={<MoonaFr />}
             language={language}

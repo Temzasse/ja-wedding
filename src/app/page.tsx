@@ -13,6 +13,8 @@ import { StatementsFr } from "./games/statements-fr";
 import { LanguageSelector } from "./components/language-selector";
 import { AdilEn } from "./speeches/adil-en";
 import { AdilFi } from "./speeches/adil-fi";
+import { MoonaEn } from "./speeches/moona-en";
+import { MoonaFr } from "./speeches/moona-fr";
 
 export default function Home() {
   const [language, setLanguage] = useState<"en" | "fi" | "fr">("en");
@@ -44,6 +46,11 @@ export default function Home() {
           <LanguageContent
             en={<AdilEn />}
             fi={<AdilFi />}
+            language={language}
+          />
+           <LanguageContent
+            en={<MoonaEn />}
+            fr={<MoonaFr />}
             language={language}
           />
           <LanguageContent

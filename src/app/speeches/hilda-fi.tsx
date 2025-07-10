@@ -2,56 +2,52 @@ export function HildaFi() {
   return (
     <section>
       <h2>Hilda</h2>
-      <p>Chers invités et chers mariés</p>
+      <p>Hyvät häävieraat ja hääpari</p>
       <p>
-        C’est un grand honneur pour moi d'être présente ici aujourd’hui en tant
-        que demoiselle d’honneur – non seulement parce que cette journée est
-        spéciale, mais aussi parce que j’ai la chance de la célébrer aux côtés
-        de l’une des personnes les plus importantes de ma vie.
+        On suuri kunnia seistä täällä tänään kaasona - ei pelkästään siksi, että
+        tämä päivä on erityinen, vaan koska saan juhlia sitä yhden elämäni
+        tärkeimmän ihmisen rinnalla.
       </p>
       <p>
-        Anne a été pour moi une amie, une compagne de voyage, une confidente de
-        confiance, et parfois même une boussole dans la vie – même si elle-même
-        s’est parfois perdue aux quatre coins du monde. C’est admirable de voir
-        comment tu as parcouru le monde, l’esprit ouvert, le cœur comme carte et
-        le passeport comme prolongement de la main.
+        Anne on ollut minulle ystävä, reissukaveri, luottokuuntelija ja välillä
+        jopa elämän navigaattori - vaikka hän itse on välillä eksynyt eri
+        puolille maailmaa. On ollut ihailtavaa seurata miten olet kulkenut
+        maailmalla avoimin mielin, sydän karttana ja passi käden jatkeena.
       </p>
       <p>
-        Nous nous sommes rencontrées au lycée et avons atterri dans la même
-        classe en choisissant toutes les deux le cours d’espagnol. Assez drôle,
-        quand on y pense, car à l’époque, personne n’aurait imaginé qu’un jour
-        elle épouserait un Français hispanophone – et que tout commencerait à
-        Porto.
+        Tutustuimme Annen kanssa lukioaikoina ja päädyimme samalle luokalle
+        molempien valitessa espanjan kielen kurssi. Hauska sinänsä että, silloin
+        ei olisi tullut ensimmäisenä mieleen, että jonain päivänä hän päätyisi
+        naimisiin espanjaa puhuvan ranskalaisen kanssa ja että kaikki saisi
+        alkunsa Portossa.
       </p>
       <p>
-        Mais c’est ça, l’amour – il surprend, il emmène, et il finit par mettre
-        la bonne personne sur notre chemin, même si elle vient de l’autre bout
-        de l’Europe.
+        Mutta niin se rakkaus tekee - se yllättää, kuljettaa ja lopulta tuo
+        oikean ihmisen rinnalle, vaikka toiselta puolelta Eurooppaa asti.
       </p>
       <p>
-        J’ai rencontré Julien pour la première fois aussi à Porto, lors d’un
-        voyage pour rendre visite à Anne. À l’époque, Anne n’a pas ouvertement
-        avoué qu’elle était folle de Julien – mais elle n’avait pas besoin de le
-        dire, tout le monde l’a vu.
+        Tapasin Julienin myös ensimmäistä kertaa Portossa, kun matkustin sinne
+        tapaamaan Annea. Anne ei silloin ainakaan ääneen myöntänyt olevansa
+        lääpällään Julieniin, mutta eipä sitä tarvinnut sanoa kun kaikki sen
+        kuitenkin näkivät.
       </p>
       <p>
-        Julien, tu as apporté avec toi ton charme français, mais surtout de la
-        sérénité, de la chaleur et de la douceur. Il y a entre toi et Anne
-        quelque chose de vrai et de solide – quelque chose qui ne naît pas par
-        hasard.
+        Julien, sinä toit mukanasi ranskalaista charmia, mutta ennen kaikkea
+        rauhallisuutta, lämpöä ja lempeyttä. Sinun ja Annen välillä on jotain
+        aitoa ja vakaata – sellaista, joka ei synny sattumalta.
       </p>
       <p>
-        Votre passion commune pour les voyages en dit long sur le couple que
-        vous formez : curieux, courageux, toujours prêts à découvrir de
-        nouvelles choses – mais toujours ensemble. Peu importe où dans le monde
-        vous vous trouvez, vous êtes chez vous l’un avec l’autre.
+        Teidän yhteinen intohimonne matkustamiseen kertoo paljon siitä,
+        millainen pari te olette: uteliaita, rohkeita, valmiita kokemaan uutta –
+        mutta aina yhdessä. Olittepa missä päin maailmaa tahansa, teillä on
+        toisissanne koti.
       </p>
       <p>
-        Alors, je souhaite lever mon verre : À notre amitié, À l’amour qui est
-        né à Porto, Et au voyage que vous poursuivrez ensemble, vers de nombreux
-        autres horizons.
+        Joten haluan nostaa maljan: Meidän ystävyydelle Rakkaudelle, joka löytyi
+        Portosta. Ja yhteiselle matkalle, joka vie teidät vielä moniin
+        paikkoihin.
       </p>
-      <p>Santé !</p>
+      <p>Cheers!</p>
     </section>
   );
 }

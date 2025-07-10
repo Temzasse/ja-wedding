@@ -42,11 +42,12 @@ export default function Home() {
 
         <h1 className={styles.title}>Julien & Anne</h1>
 
+        <LanguageSelector
+          language={language}
+          onChange={(lang) => setLanguage(lang)}
+        />
+
         <div className={styles.sections}>
-          <LanguageSelector
-            language={language}
-            onChange={(lang) => setLanguage(lang)}
-          />
           <LanguageContent
             en={<StatementsEn />}
             fi={<StatementsFi />}

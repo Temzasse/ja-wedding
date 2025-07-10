@@ -1,0 +1,23 @@
+.languageButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.languageButton {
+  background: #f0f0f0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 6px 8px;
+  font-size: 12px;
+  margin: 0;
+
+  &[data-active="true"] {
+    background: #b8860b;
+    font-weight: 700;
+    color: #fff;
+  }
+}

@@ -20,6 +20,8 @@ import { HildaFr } from "./speeches/hilda-fr";
 import { HildaFi } from "./speeches/hilda-fi";
 import { AilaFr } from "./speeches/aila-fr";
 import { AilaEn } from "./speeches/aila-en";
+import { MathisEn } from "./speeches/mathis-en";
+import { MathisFi } from "./speeches/mathis-fi";
 
 export default function Home() {
   const [language, setLanguage] = useState<"en" | "fi" | "fr">("en");
@@ -62,6 +64,11 @@ export default function Home() {
             en={<HildaEn />}
             fr={<HildaFr />}
             fi={<HildaFi />}
+            language={language}
+          />
+          <LanguageContent
+            en={<MathisEn />}
+            fi={<MathisFi />}
             language={language}
           />
           <LanguageContent

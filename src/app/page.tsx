@@ -26,6 +26,8 @@ import { MathisFi } from "./speeches/mathis-fi";
 import { PierrickValerieEn } from "./speeches/pierrick-valerie-en";
 import { PierrickValerieFr } from "./speeches/pierrick-valerie-fr";
 import { PierrickValerieFi } from "./speeches/pierrick-valerie-fi";
+import { MarieEn } from "./speeches/marie-en";
+import { MarieFr } from "./speeches/marie-fr";
 
 export default function Home() {
   const [language, setLanguage] = useState<"en" | "fi" | "fr">("en");
@@ -70,6 +72,11 @@ export default function Home() {
             en={<HildaEn />}
             fr={<HildaFr />}
             fi={<HildaFi />}
+            language={language}
+          />
+          <LanguageContent
+            en={<MarieEn />}
+            fr={<MarieFr />}
             language={language}
           />
           <LanguageContent

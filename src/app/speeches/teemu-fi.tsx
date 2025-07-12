@@ -6,7 +6,7 @@ export function TeemuFi() {
       <p>
         Haluaisin aloittaa onnitellen kaunista paria vielä kerran. Olen todella
         otettu saadessani olla osa tätä taianomaista päivää ja jakaa tämän
-        erityisen hetken kahden suosikki-ihmiseni kanssa.
+        erityisen hetken kahden suosikki-ihmiseni kanssa: Julienin ja Annen.
       </p>
       <p>
         Olen tuntenut Julienin ja Annen yli kolme vuotta. Kaikki alkoi, kun
@@ -73,13 +73,15 @@ export function TeemuFi() {
         hetkien välissä tulee haasteita. Se on totuus kaikissa oikeissa
         suhteissa. Mutta ne hetket antavat mahdollisuuden valita toisensa – ei
         vain kerran, vaan joka päivä, niin hyvinä, tavallisina kuin
-        absurdeinakin hetkinä. Ja sitä rakkaus oikeasti on: ei kertapäätös, vaan
-        päivittäinen teko valita rakastaa toista. Tarkoituksella, vaivalla ja –
-        joskus – lasillisella viiniä ja syvällä henkäyksellä. Se on syvin
-        rakkauden ele, sillä lopulta rakkaus on aina valinta. Nostetaan siis
-        malja Julienille ja Annelle – toivottavasti valitsette rakastaa
-        toisianne aina, vaikka elämä heittäisi eteenne mautonta appelsiinimehua,
-        huonoa säätä tai hevosenlihaa.
+        absurdeinakin hetkinä. On olemassa vanha sanonta, että onnistunut
+        avioliitto vaatii rakastumista moneen kertaan – aina samaan henkilöön.
+        Ja sitä rakkaus oikeasti on: ei kertapäätös, vaan päivittäinen teko
+        valita rakastaa toista. Tarkoituksella, vaivalla ja – joskus –
+        lasillisella viiniä ja syvällä henkäyksellä. Se on syvin rakkauden ele,
+        sillä lopulta rakkaus on aina valinta. Nostetaan siis malja Julienille
+        ja Annelle – toivottavasti valitsette rakastaa toisianne aina, vaikka
+        elämä heittäisi eteenne mautonta appelsiinimehua, huonoa säätä tai
+        hevosenlihaa.
       </p>
       <p>Rakkaudelle!</p>
     </section>

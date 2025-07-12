@@ -6,7 +6,7 @@ export function TeemuEn() {
       <p>
         I would like to start by congratulating the beautiful couple one more
         time. I’m truly honoured to be part of this magical day and to share
-        this special moment with two of my favourite people.
+        this special moment with two of my favourite people: Julien and Anne.
       </p>
       <p>
         I’ve known Julien and Anne for over three years. It all started when I
@@ -75,14 +75,15 @@ export function TeemuEn() {
         The same applies to marriage. In between all the joyful moments, there
         will be challenges. That’s the truth in any real relationship. But those
         moments give you the chance to choose each other—not just once, but
-        every day, through the good, the ordinary, and the absurd. And that’s
-        what love really is: not a one-time decision, but a daily act of
-        choosing to love each other. With intention, with effort,
-        and—sometimes—with a glass of wine and a deep breath. That is the
-        deepest gesture of love one can make, as in the end, love is always a
-        choice. So tonight, let’s raise our glasses to Julien and Anne—may you
-        always choose to love each other, even when life throws bland orange
-        juice, bad weather, or horse meat at you.
+        every day, through the good, the ordinary, and the absurd. There’s an
+        old saying that successful marriage requires falling in love many times,
+        always with the same person.And that’s what love really is: not a
+        one-time decision, but a daily act of choosing to love each other. With
+        intention, with effort, and—sometimes—with a glass of wine and a deep
+        breath. That is the deepest gesture of love one can make, as in the end,
+        love is always a choice. So tonight, let’s raise our glasses to Julien
+        and Anne—may you always choose to love each other, even when life throws
+        bland orange juice, bad weather, or horse meat at you.
       </p>
       <p>To love!</p>
     </section>

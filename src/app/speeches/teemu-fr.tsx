@@ -8,7 +8,8 @@ export function TeemuFr() {
       <p>
         Je voudrais commencer par féliciter une fois de plus ce magnifique
         couple. Je suis vraiment honoré de faire partie de cette journée magique
-        et de partager ce moment unique avec deux de mes personnes préférées.
+        et de partager ce moment unique avec deux de mes personnes préférée:
+        Julien et Anne.
       </p>
       <p>
         Je connais Julien et Anne depuis un peu plus de trois ans. Tout a
@@ -90,11 +91,13 @@ export function TeemuFr() {
         joie, il y aura aussi des défis. C’est la réalité de toute relation
         sincère. Mais ces moments sont aussi une opportunité : celle de vous
         choisir mutuellement. Pas une seule fois, mais chaque jour — à travers
-        le bonheur, le quotidien et l’absurde. Et c’est ça, l’amour : pas une
-        décision prise une fois pour toutes, mais un acte quotidien de choisir
-        d’aimer l’autre. Avec intention, avec effort… et parfois avec un verre
-        de vin et une grande inspiration. C’est le geste d’amour le plus profond
-        que l’on puisse faire, car au fond, l’amour est toujours un choix.
+        le bonheur, le quotidien et l’absurde. Il y a un vieux dicton qui dit
+        qu’un mariage réussi nécessite de tomber amoureux plusieurs fois,
+        toujours de la même personne. Et c’est ça, l’amour : pas une décision
+        prise une fois pour toutes, mais un acte quotidien de choisir d’aimer
+        l’autre. Avec intention, avec effort… et parfois avec un verre de vin et
+        une grande inspiration. C’est le geste d’amour le plus profond que l’on
+        puisse faire, car au fond, l’amour est toujours un choix.
       </p>
       <p>
         Alors ce soir, levons nos verres à Julien et Anne — que vous continuiez

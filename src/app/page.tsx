@@ -1,33 +1,34 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
-import styles from "./page.module.css";
-import headerImg from "./header.png";
-import { TeemuEn } from "./speeches/teemu-en";
-import { TeemuFr } from "./speeches/teemu-fr";
+import { useState } from "react";
 import { LanguageContent } from "./components/language-content";
+import { LanguageSelector } from "./components/language-selector";
 import { StatementsEn } from "./games/statements-en";
 import { StatementsFi } from "./games/statements-fi";
 import { StatementsFr } from "./games/statements-fr";
-import { LanguageSelector } from "./components/language-selector";
+import headerImg from "./header.png";
+import styles from "./page.module.css";
 import { AdilEn } from "./speeches/adil-en";
 import { AdilFi } from "./speeches/adil-fi";
 import { AdilFr } from "./speeches/adil-fr";
-import { MoonaEn } from "./speeches/moona-en";
-import { MoonaFr } from "./speeches/moona-fr";
-import { HildaEn } from "./speeches/hilda-en";
-import { HildaFr } from "./speeches/hilda-fr";
-import { HildaFi } from "./speeches/hilda-fi";
-import { AilaFr } from "./speeches/aila-fr";
 import { AilaEn } from "./speeches/aila-en";
-import { MathisEn } from "./speeches/mathis-en";
-import { MathisFi } from "./speeches/mathis-fi";
-import { PierrickValerieEn } from "./speeches/pierrick-valerie-en";
-import { PierrickValerieFr } from "./speeches/pierrick-valerie-fr";
-import { PierrickValerieFi } from "./speeches/pierrick-valerie-fi";
+import { AilaFr } from "./speeches/aila-fr";
+import { HildaEn } from "./speeches/hilda-en";
+import { HildaFi } from "./speeches/hilda-fi";
+import { HildaFr } from "./speeches/hilda-fr";
 import { MarieEn } from "./speeches/marie-en";
 import { MarieFr } from "./speeches/marie-fr";
+import { MathisEn } from "./speeches/mathis-en";
+import { MathisFi } from "./speeches/mathis-fi";
+import { MoonaEn } from "./speeches/moona-en";
+import { MoonaFr } from "./speeches/moona-fr";
+import { PierrickValerieEn } from "./speeches/pierrick-valerie-en";
+import { PierrickValerieFi } from "./speeches/pierrick-valerie-fi";
+import { PierrickValerieFr } from "./speeches/pierrick-valerie-fr";
+import { TeemuEn } from "./speeches/teemu-en";
+import { TeemuFi } from "./speeches/teemu-fi";
+import { TeemuFr } from "./speeches/teemu-fr";
 
 export default function Home() {
   const [language, setLanguage] = useState<"en" | "fi" | "fr">("en");
@@ -98,6 +99,7 @@ export default function Home() {
           <LanguageContent
             en={<TeemuEn />}
             fr={<TeemuFr />}
+            fi={<TeemuFi />}
             language={language}
           />
         </div>

@@ -77,7 +77,7 @@ export function TeemuEn() {
         moments give you the chance to choose each other—not just once, but
         every day, through the good, the ordinary, and the absurd. There’s an
         old saying that successful marriage requires falling in love many times,
-        always with the same person.And that’s what love really is: not a
+        always with the same person. And that’s what love really is: not a
         one-time decision, but a daily act of choosing to love each other. With
         intention, with effort, and—sometimes—with a glass of wine and a deep
         breath. That is the deepest gesture of love one can make, as in the end,

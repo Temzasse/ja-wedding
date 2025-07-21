@@ -1,7 +1,7 @@
 export function MarieFr() {
   return (
     <section>
-      <h2>Marie</h2>
+      <h2>🗣️ Marie</h2>
       <p>Mon juju, mon petit frère</p>
       <p>
         Tu es arrivé dans nos vies quand j’avais 3 ans et on peut dire que tu as

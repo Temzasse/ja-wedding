@@ -1,7 +1,7 @@
 export function AdilEn() {
   return (
     <section>
-      <h2>Adil</h2>
+      <h2>🗣️ Adil</h2>
       <p>
         Julien and Anne are probably a bit nervous that I’ll say something
         embarrassing… but don’t worry, I’ll try to behave. Promise. Try.

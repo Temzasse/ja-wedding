@@ -1,7 +1,7 @@
 export function PierrickValerieFr() {
   return (
     <section>
-      <h2>Pierrick & Valérie</h2>
+      <h2>🗣️ Pierrick & Valérie</h2>
       <p>Cher Julien, Chère Anne</p>
       <p data-color-one>
         Nous sommes heureux d’être auprès de vous, ici en Finlande, pour

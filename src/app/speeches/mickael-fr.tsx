@@ -1,7 +1,7 @@
 export function MickaelFr() {
   return (
     <section>
-      <h2>Mickaël</h2>
+      <h2>🗣️ Mickaël</h2>
       <p>
         Julien, lorsque tu es né le mardi 10 juin 1997, j'étais très loin de ma
         Bretagne natale. Effectivement, j'étais en fin de ma première année de

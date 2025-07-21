@@ -1,7 +1,7 @@
 export function HildaFi() {
   return (
     <section>
-      <h2>Hilda</h2>
+      <h2>🗣️ Hilda</h2>
       <p>Hyvät häävieraat ja hääpari</p>
       <p>
         On suuri kunnia seistä täällä tänään kaasona - ei pelkästään siksi, että

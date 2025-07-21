@@ -1,7 +1,7 @@
 export function MathisFr() {
   return (
     <section>
-      <h2>Mathis</h2>
+      <h2>🗣️ Mathis</h2>
       <p>Mes chers amis,</p>
       <p>
         Imaginez. Imaginez en 2019, une soirée dans un parc. Un mercredi 04

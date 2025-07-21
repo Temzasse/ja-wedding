@@ -1,7 +1,7 @@
 export function MoonaEn() {
   return (
     <section>
-      <h2>Moona</h2>
+      <h2>🗣️ Moona</h2>
       <p>
         Hi Everyone, I'm Moona, friend of Anne and proudly one of her maids of
         honour today. I am so excited to celebrate this beautiful couple with

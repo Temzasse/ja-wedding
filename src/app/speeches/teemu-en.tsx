@@ -1,7 +1,7 @@
 export function TeemuEn() {
   return (
     <section>
-      <h2>Teemu</h2>
+      <h2>🗣️ Teemu</h2>
       <p>My name is Teemu and I’m one of Julien’s bestmen.</p>
       <p>
         I would like to start by congratulating the beautiful couple one more

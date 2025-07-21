@@ -1,7 +1,7 @@
 export function ThereseMichelFr() {
   return (
     <section>
-      <h2>Thérèse & Michel</h2>
+      <h2>🗣️ Thérèse & Michel</h2>
       <p>Anne et Julien,</p>
       <p>
         Ce jour est un grand jour pour vous, mais également pour nous

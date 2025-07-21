@@ -83,7 +83,10 @@ export function MathisFi() {
         hiljaisuuksissa. Elämää kahdestaan – mutta ei koskaan ilman toista.
       </p>
       <p>
-        Joten näetkö tuon tuntemattoman tuolla? Se on hän. Hän on elämäsi mies.
+        <strong>
+          Joten näetkö tuon tuntemattoman tuolla? Se on hän. Hän on elämäsi
+          mies.
+        </strong>
       </p>
     </section>
   );

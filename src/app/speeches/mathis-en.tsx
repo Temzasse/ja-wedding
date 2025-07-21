@@ -80,8 +80,10 @@ export function MathisEn() {
         together—never without each other.
       </p>
       <p>
-        So you see that stranger over there? It’s him. He’s the love of your
-        life.
+        <strong>
+          So you see that stranger over there? It’s him. He’s the love of your
+          life.
+        </strong>
       </p>
     </section>
   );

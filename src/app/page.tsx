@@ -21,6 +21,10 @@ import { MarieEn } from "./speeches/marie-en";
 import { MarieFr } from "./speeches/marie-fr";
 import { MathisEn } from "./speeches/mathis-en";
 import { MathisFi } from "./speeches/mathis-fi";
+import { MathisFr } from "./speeches/mathis-fr";
+import { MickaelEn } from "./speeches/mickael-en";
+import { MickaelFi } from "./speeches/mickael-fi";
+import { MickaelFr } from "./speeches/mickael-fr";
 import { MoonaEn } from "./speeches/moona-en";
 import { MoonaFr } from "./speeches/moona-fr";
 import { PierrickValerieEn } from "./speeches/pierrick-valerie-en";
@@ -29,6 +33,9 @@ import { PierrickValerieFr } from "./speeches/pierrick-valerie-fr";
 import { TeemuEn } from "./speeches/teemu-en";
 import { TeemuFi } from "./speeches/teemu-fi";
 import { TeemuFr } from "./speeches/teemu-fr";
+import { ThereseMichelEn } from "./speeches/therese-michel-en";
+import { ThereseMichelFi } from "./speeches/therese-michel-fi";
+import { ThereseMichelFr } from "./speeches/therese-michel-fr";
 
 export default function Home() {
   const [language, setLanguage] = useState<"en" | "fi" | "fr">("en");
@@ -54,14 +61,14 @@ export default function Home() {
         <div className={styles.sections}>
           <LanguageContent
             en={<StatementsEn />}
-            fi={<StatementsFi />}
             fr={<StatementsFr />}
+            fi={<StatementsFi />}
             language={language}
           />
           <LanguageContent
             en={<AdilEn />}
-            fi={<AdilFi />}
             fr={<AdilFr />}
+            fi={<AdilFi />}
             language={language}
           />
           <LanguageContent
@@ -82,6 +89,7 @@ export default function Home() {
           />
           <LanguageContent
             en={<MathisEn />}
+            fr={<MathisFr />}
             fi={<MathisFi />}
             language={language}
           />
@@ -100,6 +108,18 @@ export default function Home() {
             en={<TeemuEn />}
             fr={<TeemuFr />}
             fi={<TeemuFi />}
+            language={language}
+          />
+          <LanguageContent
+            en={<MickaelEn />}
+            fr={<MickaelFr />}
+            fi={<MickaelFi />}
+            language={language}
+          />
+          <LanguageContent
+            en={<ThereseMichelEn />}
+            fr={<ThereseMichelFr />}
+            fi={<ThereseMichelFi />}
             language={language}
           />
         </div>

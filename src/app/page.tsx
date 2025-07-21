@@ -4,9 +4,6 @@ import Image from "next/image";
 import { useState } from "react";
 import { LanguageContent } from "./components/language-content";
 import { LanguageSelector } from "./components/language-selector";
-import { StatementsEn } from "./games/statements-en";
-import { StatementsFi } from "./games/statements-fi";
-import { StatementsFr } from "./games/statements-fr";
 import headerImg from "./header.png";
 import styles from "./page.module.css";
 import { AdilEn } from "./speeches/adil-en";
@@ -63,33 +60,15 @@ export default function Home() {
 
         <div className={styles.sections}>
           <LanguageContent
-            en={<StatementsEn />}
-            fr={<StatementsFr />}
-            fi={<StatementsFi />}
-            language={language}
-          />
-          <LanguageContent
-            en={<AdilEn />}
-            fr={<AdilFr />}
-            fi={<AdilFi />}
+            en={<PierrickValerieEn />}
+            fr={<PierrickValerieFr />}
+            fi={<PierrickValerieFi />}
             language={language}
           />
           <LanguageContent
             en={<AilaEn />}
             fr={<AilaFr />}
             fi={<AilaFi />}
-            language={language}
-          />
-          <LanguageContent
-            en={<HildaEn />}
-            fr={<HildaFr />}
-            fi={<HildaFi />}
-            language={language}
-          />
-          <LanguageContent
-            en={<MarieEn />}
-            fr={<MarieFr />}
-            fi={<MarieFi />}
             language={language}
           />
           <LanguageContent
@@ -105,15 +84,27 @@ export default function Home() {
             language={language}
           />
           <LanguageContent
-            en={<PierrickValerieEn />}
-            fr={<PierrickValerieFr />}
-            fi={<PierrickValerieFi />}
-            language={language}
-          />
-          <LanguageContent
             en={<TeemuEn />}
             fr={<TeemuFr />}
             fi={<TeemuFi />}
+            language={language}
+          />
+          <LanguageContent
+            en={<HildaEn />}
+            fr={<HildaFr />}
+            fi={<HildaFi />}
+            language={language}
+          />
+          <LanguageContent
+            en={<MarieEn />}
+            fr={<MarieFr />}
+            fi={<MarieFi />}
+            language={language}
+          />
+          <LanguageContent
+            en={<AdilEn />}
+            fr={<AdilFr />}
+            fi={<AdilFi />}
             language={language}
           />
           <LanguageContent

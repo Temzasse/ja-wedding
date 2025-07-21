@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { LanguageContent } from "./components/language-content";
 import { LanguageSelector } from "./components/language-selector";
@@ -38,7 +39,20 @@ import { ThereseMichelFi } from "./speeches/therese-michel-fi";
 import { ThereseMichelFr } from "./speeches/therese-michel-fr";
 
 export default function Home() {
-  const [language, setLanguage] = useState<"en" | "fi" | "fr">("en");
+  const searchParams = useSearchParams();
+  const router = useRouter();
+
+  const languageParam = searchParams.get("lang");
+  const [language, setLanguage] = useState<"en" | "fi" | "fr">(
+    languageParam === "fi" || languageParam === "fr" ? languageParam : "en"
+  );
+
+  const handleLanguageChange = (lang: "en" | "fi" | "fr") => {
+    setLanguage(lang);
+    const params = new URLSearchParams(searchParams.toString());
+    params.set("lang", lang);
+    router.replace(`?${params.toString()}`);
+  };
 
   return (
     <div className={styles.page}>
@@ -55,7 +69,7 @@ export default function Home() {
 
         <LanguageSelector
           language={language}
-          onChange={(lang) => setLanguage(lang)}
+          onChange={(lang) => handleLanguageChange(lang)}
         />
 
         <div className={styles.sections}>

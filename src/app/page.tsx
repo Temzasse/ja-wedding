@@ -13,11 +13,13 @@ import { AdilEn } from "./speeches/adil-en";
 import { AdilFi } from "./speeches/adil-fi";
 import { AdilFr } from "./speeches/adil-fr";
 import { AilaEn } from "./speeches/aila-en";
+import { AilaFi } from "./speeches/aila-fi";
 import { AilaFr } from "./speeches/aila-fr";
 import { HildaEn } from "./speeches/hilda-en";
 import { HildaFi } from "./speeches/hilda-fi";
 import { HildaFr } from "./speeches/hilda-fr";
 import { MarieEn } from "./speeches/marie-en";
+import { MarieFi } from "./speeches/marie-fi";
 import { MarieFr } from "./speeches/marie-fr";
 import { MathisEn } from "./speeches/mathis-en";
 import { MathisFi } from "./speeches/mathis-fi";
@@ -26,6 +28,7 @@ import { MickaelEn } from "./speeches/mickael-en";
 import { MickaelFi } from "./speeches/mickael-fi";
 import { MickaelFr } from "./speeches/mickael-fr";
 import { MoonaEn } from "./speeches/moona-en";
+import { MoonaFi } from "./speeches/moona-fi";
 import { MoonaFr } from "./speeches/moona-fr";
 import { PierrickValerieEn } from "./speeches/pierrick-valerie-en";
 import { PierrickValerieFi } from "./speeches/pierrick-valerie-fi";
@@ -74,6 +77,7 @@ export default function Home() {
           <LanguageContent
             en={<AilaEn />}
             fr={<AilaFr />}
+            fi={<AilaFi />}
             language={language}
           />
           <LanguageContent
@@ -85,6 +89,7 @@ export default function Home() {
           <LanguageContent
             en={<MarieEn />}
             fr={<MarieFr />}
+            fi={<MarieFi />}
             language={language}
           />
           <LanguageContent
@@ -96,6 +101,7 @@ export default function Home() {
           <LanguageContent
             en={<MoonaEn />}
             fr={<MoonaFr />}
+            fi={<MoonaFi />}
             language={language}
           />
           <LanguageContent

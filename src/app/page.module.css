@@ -20,10 +20,3 @@
   right: 0;
   pointer-events: none;
 }
-
-.sections {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  margin-top: 32px;
-}
